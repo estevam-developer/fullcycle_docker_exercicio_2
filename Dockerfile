@@ -2,6 +2,6 @@ FROM node:15
 
 WORKDIR /usr/src/app
 
-COPY . .
+COPY src .
 
 CMD [ "node", "index.js" ]
