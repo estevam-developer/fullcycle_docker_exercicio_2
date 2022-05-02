@@ -6,8 +6,6 @@ services:
       context: .
     image: leonardoestevam/fullcycle_docker_exercicio_2:2.0
     container_name: node-app
-    volumes:
-      - ./src:/usr/src/app
     ports:
       - "80:3000"
     networks:
