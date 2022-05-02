@@ -2,7 +2,7 @@ FROM node:15 as builder
 
 WORKDIR /usr/src/app
 
-RUN npm install && npm install mysql --save
+RUN npm install express --save && npm install mysql --save
 
 COPY src .
 
